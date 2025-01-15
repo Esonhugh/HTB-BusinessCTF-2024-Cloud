@@ -191,9 +191,9 @@ version: 1
 
 然后他这里有设计失败的地方就出来了。wp写的是 list ec2 create snapshot，实际上枚举出来的不符。
 
-![[htb-biz-2024-1.png]]
+![img1](./img/htb-bis-ctf-2024-img/htb-biz-2024-1.png)
 
-![[htb-biz-2024-2.png]]
+![img2](./img/htb-bis-ctf-2024-img/htb-biz-2024-2.png)
 
 然后我就卡住了，我一直在想s3和kms的关系没意识那个backup powershell script 我和队友说那就是个 snapshot 就没管他 。然后就没出来，哈哈。
 
